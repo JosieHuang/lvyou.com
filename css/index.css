@@ -1,0 +1,814 @@
+/* 重置样式 */
+*{
+    font-weight: bold;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font: 12px/1.5 'Microsoft Yahei',arial,sans-serif;
+}
+ul,ol,li,p,h2,h3,h4,h5,h6,dl,dt,dd,body,html,p{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+img{
+    vertical-align:bottom;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+/* header 样式 */
+.header{
+    height:28px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+.top-bar-box{
+    width: 1000px;
+    margin:0 auto;
+}
+.top-bar-box:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    background-color: transparent;
+    visibility:hidden;
+}
+.top-bar li{
+    float: left;
+    padding: 0 15px;
+}
+.top-bar{
+    float:right;
+
+    height: 28px;
+}
+.top-bar:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+.top-bar i{
+    display: inline-block;
+    height: 28px;
+    vertical-align: middle;
+}
+.download-client{
+    position: relative;
+}
+.download-client i{
+    width: 14px;
+    background: url(../img/SimBar_Sprite.png) no-repeat -52px -46px;
+}
+.tourist-service i{
+    width:28px;
+    background: url(../img/SimBar_Sprite.png) no-repeat -44px -7px;
+}
+.tourist-num i{
+    width:26px;
+    background: url(../img/SimBar_Sprite.png) no-repeat -4px -47px;
+
+}
+.tourist-num{
+    color:#f90;
+}
+.posted{
+    color:#f60;
+}
+.posted-btn{
+    width: 110px;
+    text-align: center;
+    color:#fff;
+    background-color: #f60;
+    margin:5px auto;
+}
+
+.show-client{
+    width: 130px;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 0 4px 5px #ddd;
+    text-align: center;
+    display:none;
+}
+.show-client img{
+    width: 100px;
+    margin:10px 0;
+}
+/* 导航栏 */
+.nav{
+    width: 1000px;
+    margin: 5px auto;
+}
+.nav-bar:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+.logo-img {
+    height: 90px;
+    margin: 5px auto;
+    display: inline-block;
+}
+.logo-slogan{
+    margin:0 0 20px 30px;
+}
+.nav-bar li{
+    float:left;
+    padding:0 18px;
+    border-right: 1px solid #ccc;
+}
+.nav-bar li:last-child{
+    border-right: none;
+}
+.nav-bar li a{
+    color:#29afec;
+    text-decoration: none;
+}
+.nav-bar li a:hover{
+    text-decoration: underline;
+}
+
+.nav-bar{
+    display: inline-block;
+    padding-top: 36px;
+    float: right;
+}
+/* banner部分 */
+.banner-box .banner img{
+    width: 100%;
+    height: 530px;
+
+}
+.banner-box li{
+    float:left;
+}
+
+.banner-box:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+.banner-circle-dot li{
+    float:left;
+    margin-right:10px;
+}
+.banner-circle-dot li a{
+    width: 10px;
+    background-color: rgba(0,0,0,.6);
+    display: inline-block;
+    height: 10px;
+    border-radius: 50%;
+    border:1px solid #fff;
+}
+/*.banner-box{
+    width: 1000%;
+}*/
+.posting{
+    width: 1000px;
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left:-500px;
+    height: 530px;
+}
+/* 登录 */
+.login-box{
+    width:320px;
+    height:300px;
+    background-color: #fff;
+    float: right;
+    margin-top:50px;
+
+}
+.login-box .line{
+    width: 320px;
+    height: 10px;
+    margin: 0 auto;
+    display: block;
+    background: url(../img/SignInSprite.png) no-repeat 0 -615px;
+}
+.login-box h4{
+    margin:30px 0 10px 0;
+    font-size:20px;
+    text-align: center;
+    color:#666;
+}
+.login-box .uname-box{
+    text-align: center;
+    margin:40px 0;
+}
+.login-box .uname-box span{
+    font-size:20px;
+}
+.uname-box .uname{
+    color: #dd4a07;
+    margin-right: 5px;
+}
+.entry-btn{
+    width: 260px;
+    margin:0 auto;
+    height:40PX;
+    background-color: #25a3dd;
+    border-radius: 4px;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+}
+.quit-btn{
+    text-align: center;
+    color:#666;
+    margin-top: 20px;
+}
+.banner-circle-dot{
+    position: absolute;
+    bottom: 100px;
+    left:50%;
+    margin-left:-40px;
+}
+.slide{
+    position: absolute;
+    margin:0 auto;
+    width:1000px;
+    height:140px;
+    bottom: -70px;
+    background-color: #fff;
+    box-shadow:0px 0px  10px 2px #666;
+}
+.slide-icon{
+    width:60px;
+    height: 60px;
+    display: block;
+    margin: 40px 0px;
+    background: url('../img/SignInSprite.png') -530px -10px;
+    position: absolute;
+}
+.slide a{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 140px;
+    padding:0 34px;
+
+}
+.slide a p{
+    margin-left:88px;
+
+}
+.slide-line{
+    display: block;
+    background: url("../img/SignInSprite.png") no-repeat -820px -180px;
+    width: 1px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    top:10px;
+
+}
+.apellation{
+    margin-top:40px;
+    font-size:30px;
+    color:#3fbeff;
+}
+/* 平台产品 */
+.iaas-title{
+    text-align: center;
+    padding-top: 50px;
+}
+.two-module{
+    width: 1000px;
+    margin: 100px auto;
+    position: relative;
+}
+.iaas-title h4{
+    font-size: 36px;
+}
+.iaas-title p{
+    font-size: 14px;
+    color: #999;
+}
+.line{
+    width: 160px;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    background: url(../img/SignInSprite.png) no-repeat 0 -10px ;
+}
+.product-name{
+    margin-top:36px;
+
+}
+.product{
+    width: 310px;
+    height: 360px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 3px 6px #ddd
+}
+.product:hover{
+    box-shadow: 0 4px 10px #ccc;
+}
+.product h5{
+    font-size: 34px;
+    color:#333;
+    margin-bottom: 16px;
+    margin-top:20px;
+}
+.product p{
+    height: 24px;
+    color: #666;
+    line-height: 24px;
+}
+.product-name .product{
+    float:left;
+}
+.product-name:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+.switch-btn{
+    width:80px;
+    height:100px;
+    background: url(../img/SignInSprite.png) no-repeat -76px -56px;
+    position: absolute;
+    top:200px;
+    right:-100px;
+}
+.switch-line{
+    width: 1000px;
+    text-align: center;
+}
+.switch-line span{
+    width:60px;
+    height:2px;
+    background-color: #ddd;
+    margin:0 10px;
+    display: inline-block;
+}
+
+.switch-line .curr {
+    background-color: #f90;
+}
+
+/*.animated{
+    //transition: all .4s ease-in-out;
+     transform: rotateY(.5turn);
+}*/
+.animated{
+    -webkit-transition: .9s ease-out;
+    -moz-transition: .9s ease-out;
+    -ms-transition: .9s ease-out;
+    -o-transition: .9s ease-out;
+    transition: .9s ease-out;
+}
+.animated-right{
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    rotateY(360deg);
+}
+/* 营销工具 */
+.four-module{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.outside-box{
+    width: 1000px;
+    margin:0 auto;
+}
+.tools{
+    width: 220px;
+    height: 280px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-right: 36px;
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+}
+
+.tools h4{
+    padding: 80px 0 20px 0;
+    line-height: 24px;
+    font-size: 18px;
+    color: #333;
+    text-shadow: 0 0 0 #333;
+}
+.wise-more{
+    width: 128px;
+    height: 28px;
+    line-height: 28px;
+    color:#25a3dd;
+    border: 1px solid #25a3dd;
+    border-radius: 3px;
+    margin:30px auto 0;
+
+}
+.list{
+    padding:80px 0 50px 0;
+}
+.tools p{
+    height: 24px;
+    line-height: 24px;
+    color: #999;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.icon{
+    position: absolute;
+    top:-60px;
+    left:60px;
+    width: 110px;
+    height:120px;
+    background: url(../img/SignInSprite.png) no-repeat -5px -320px;
+}
+.change-bg{
+    background:url(../img/SignInSprite.png) no-repeat -125px -320px;
+}
+.icon i{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+.lvyou-icon{
+    background: url(../img/SignInSprite.png) no-repeat -310px -140px;
+}
+.revenue-treasure-icon{
+    background: url(../img/SignInSprite.png) no-repeat -310px -220px;
+}
+.ring-pay-icon{
+    background: url(../img/SignInSprite.png) no-repeat -390px -140px;
+}
+.market-num{
+    background: url(../img/SignInSprite.png) no-repeat -386px -220px;
+}
+/* 8大保障 */
+.six-module{
+    width: 1000px;
+    margin:0 auto;
+}
+.six-module:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+.safeguards li{
+    width: 230px;
+    position: relative;
+    text-align: center;
+    padding: 15px 0 15px 80px;
+    float: left;
+    margin: 0 10px 35px 10px;
+}
+.safeguards{
+    height: 230px;
+    margin: 50px 0 30px 0;
+}
+.six-module-icon{
+    background: url(../img/SignInSprite.png) no-repeat -180px -60px;
+    width: 80px;
+    height:80px;
+    position: absolute;
+
+    top:0;
+    left:0;
+}
+.safeguards .tit{
+    font-size: 14px;
+    color: #333;
+    text-shadow: 0 0 0 #333;
+    padding: 10px 0 5px 0;
+}
+.safeguards .text{
+    font-size: 12px;
+    color: #666;
+}
+.six-module-icon i{
+    width: 80px;
+    height: 80px;
+    display: block;
+    background: url(../img/SignInSprite.png) no-repeat -2px -160px;
+}
+/* 页脚1 */
+.footer-about{
+    width: 1000px;
+    margin:0 auto;
+    padding: 20px 0 20px 0;
+
+}
+.footer-about:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+.about{
+    width: 160px;
+}
+.about h4{
+    margin-bottom: 5px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    text-shadow: 0 0 0 #333;
+    cursor: default;
+}
+.about-list a,.link-list a{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+.footer-about div{
+    float:left;
+
+}
+.friendly-link ul{
+    float:left;
+}
+.friendly-link{
+    width: 240px;
+}
+.link-list{
+    margin-right: 20px;
+}
+.footer-about .download-app{
+    float: right;
+}
+.download-app img{
+    width: 100px;
+}
+.download-app div{
+    width: 120px;
+    margin-left:20px;
+}
+/* 页脚 - 版权 */
+.footer-copyright{
+    background-color:#16405d;
+}
+
+.copyright-box{
+    width: 1000px;
+    margin:0 auto;
+    padding:15px 0;
+}
+.copyright-box span{
+    font-family: '\5b8b\4f53';
+    color:#999;
+}
+.copyright-box .copyright-txt,.copyright-box .addr-txt{
+    color: #fff;
+}
+.img-skip{
+    margin-top:10px;
+}
+.img-skip img{
+    margin-right: 20px;
+}
+
+/* 入驻流程 */
+.five-module{
+    background:url(../img/SignIn_bg1.jpg);
+    height: 640px;
+}
+.five-module .info{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+.entry-process-img{
+    float: right;
+}
+.supplier-entry{
+    width:142px;
+    height:128px;
+    display: block;
+    position: absolute;
+    top:140px;
+    left:330px;
+    background: url(../img/SignInSprite.png) no-repeat -6px -460px;
+}
+.supplier-entry:hover{
+   background-position: -166px -460px;
+    cursor: pointer;
+}
+.distributor-registration:hover{
+    background-position: -486px -460px;
+    cursor: pointer;
+}
+.distributor-registration{
+    width:142px;
+    height:128px;
+    display: block;
+    position: absolute;
+    top:140px;
+    left:520px;
+    background: url(../img/SignInSprite.png) no-repeat -326px -460px;
+}
+.five-module .iaas-title{
+    padding-top:50px;
+}
+.five-module .iaas-title h4,.five-module .iaas-title p{
+    color:#fff;
+}
+.five-module .info>p{
+    text-align: center;
+    color:#999;
+}
+/* 旅游圈荣誉 */
+.three-module .iaas-title p,.three-module .iaas-title h4{
+    color:#fff;
+}
+.three-module{
+    background:url(../img/SignIn_bg2.jpg);
+    height: 650px;
+}
+.switch-box{
+    text-align: center;
+    padding:10px 0 10px 0;
+}
+.prize{
+    margin-left:20px;
+}
+.switch-box a.curr{
+    background: #f60;
+}
+.switch-box a{
+    display: inline-block;
+    background: #244756;
+    padding:5px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 16px;
+
+}
+.company-honor{
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 300px;
+    background:rgba(255,255,255,0.1);
+    position: relative;
+}
+.company-honor .img-box{
+    width: 96px;
+    height: 64px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.company-honor .img-box img{
+    width: 96px;height: 64px;
+}
+
+.ch-text{
+    width: 330px;
+    font-family: '\5b8b\4f53';
+}
+.ch-text h5{
+    width: 340px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    height: 14px;
+    line-height: 14px;
+    font-size: 16px;
+    color:#fff;
+    margin-bottom: 8px;
+}
+.ch-content a div{
+    float: left;
+}
+.ch-content{
+    padding:25px 40px;
+}
+.ch-content:after{
+    content:" ";
+    display:block;
+    height:0;
+    font-size:0;
+    clear:both;
+    visibility:hidden;
+}
+.ch-content .time{
+    margin-left: 50px;
+    line-height: 70px;
+    height: 70px;
+    font-size: 12px;
+    color:#fff;
+}
+.company-honor .line{
+    width: 2px;
+    height: 390px;
+    background-color: #fff;
+    position: absolute;
+    left:499px;
+    top:50px;
+}
+.ch-content .honour{
+    width:20px;
+    background: url("../img/SignInSprite.png") no-repeat -370px -12px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    left: 490px;
+    top:50px;
+    z-index: 10;
+
+}
+.honour i {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    display: block;
+    background: url("../img/SignInSprite.png") no-repeat -494px -14px;
+    top: 2px;
+    left: 5px;
+}
+.ch-text p{
+    height: 32px;
+    line-height: 16px;
+    font-size: 12px;
+    color:#fff;
+}
+.ch-content .honour-right{
+    float:right;
+}
+.ch-right{
+    float:right;
+}
+.ch-right .img-box{
+    margin:0 10px 0 46px;
+}
+.ch-content .ch-right .honour{
+    background: url(../img/SignInSprite.png) no-repeat -410px -12px;
+    top: 126px;
+}
+.ch-content a img,.ch-content a .time{
+    transition:all 0.5s;
+}
+.ch-content a:hover img{
+    transform:scale(1.5,1.5);
+}
+.ch-content a:hover i{
+    background: url("../img/SignInSprite.png") no-repeat -455px -14px;
+}
+.ch-content a:hover .time{
+    font-size:16px;
+}
+/* 楼层样式 */
+.fixedNav{
+    position: fixed;
+    right: 10px;
+    top:50%;
+    margin-top: -100px;
+}
+.fixedNav .floor li{
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: url("../img/SignInSprite.png") -205px -5px;
+}
+@keyframes rotate{
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg)}
+}
+.fixedNav .floor i{
+    display: block;
+    height: 30px;
+    width: 30px;
+    visibility: hidden;
+    animation:rotate 2.0s linear 0s infinite ;
+    background: url("../img/SignInSprite.png") -165px -5px;
+}
+.fixedNav li.curr {
+    background-position: -245px -5px;
+}

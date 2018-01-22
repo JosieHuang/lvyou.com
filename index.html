@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .dots{
+            position: absolute;
+            left:50%;
+            bottom: 90px;
+            margin-left: -44px;
+        }
+        .dots li
+        {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            margin: 0 4px;
+            text-indent: -999em;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            cursor: pointer;
+            opacity: .4;
+            transition: background .5s, opacity .5s;
+        }
+        .dots li.active{
+            background: #ff6600;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!--  头部 -->
+    <div class="header">
+        <div class="top-bar-box">
+            <ul class="top-bar">
+                <li class="download-client">
+                    <i></i>
+                    <span>下载手机客户端</span>
+                    <div class="show-client">
+                        <img src="img/AppDownQr.png" alt="">
+                        <p class="posted">扫描下载客户端</p>
+                        <div class="posted-btn">安装登录就送1000元现金券</div>
+                    </div>
+                </li>
+                <li class="tourist-service">
+                    <i ></i>
+                    <span>旅游圈圈小二</span>
+                    <div class="show-client">
+                        <img src="img/CodeQxe.jpg" alt="">
+                        <p class="posted">关注微信公众号</p>
+                    </div>
+                </li>
+                <li class="tourist-num">
+                    <i></i>
+                    <span>1010-3258</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- #头部 -->
+    <!-- 导航栏 -->
+    <div class="nav">
+        <div class="logo-img">
+            <img src="img/lylogo.png" alt="">
+            <img src="img/lylogo2.gif" alt="" class="logo-slogan">
+        </div>
+        <ul class="nav-bar">
+            <li><a href="">关于我们</a></li>
+            <li><a href="">旅游新零售</a></li>
+            <li><a href="">供应商入驻</a></li>
+            <li style="padding-right: 0;"><a href="">分销商注册</a></li>
+        </ul>
+    </div>
+    <!-- #导航栏 -->
+    <!-- #banner -->
+    <div class="first-module single-floor">
+        <div style="width: 100%;position: relative">
+            <div style="overflow: hidden;" class="banner-content">
+                <ul class="banner-box">
+                    <li>
+                        <a href="#" class="banner"><img src="img/20171013145319_6145.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="banner"><img src="img/20171013145307_3373.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="banner"><img src="img/20171013104301_3583.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#" class="banner"><img src="img/20171013104322_3091.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="posting">
+               <!-- <ul class="banner-circle-dot">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>-->
+                <form action="">
+                    <div class="login-box" >
+                        <h4>欢迎来到旅游圈</h4>
+                        <i class="line"></i>
+                        <div class="uname-box">
+                            <span class="uname">公共账户</span>
+                            <span>您好！</span>
+                        </div>
+                        <div class="entry-btn">立即进入平台</div>
+                        <div class="quit-btn">[退出]</div>
+                    </div>
+                </form>
+                <div class="slide">
+                    <a>
+                        <i class="slide-icon"></i>
+                        <p class="apellation">新零售</p>
+                        <p>New Retail</p>
+                        <i class="slide-line"></i>
+                    </a>
+                    <a>
+                        <i class="slide-icon"></i>
+                        <p class="apellation">新零售</p>
+                        <p>New Retail</p>
+                        <i class="slide-line"></i>
+                    </a>
+                    <a>
+                        <i class="slide-icon"></i>
+                        <p class="apellation">新零售</p>
+                        <p>New Retail</p>
+                        <i class="slide-line"></i>
+                    </a>
+                    <a>
+                        <i class="slide-icon"></i>
+                        <p class="apellation">新零售</p>
+                        <p>New Retail</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- #banner -->
+    <!-- 平台产品 -->
+    <div class="two-module single-floor">
+        <div class="iaas-title">
+            <h4>平台产品</h4>
+            <p>Platform Product</p>
+            <i class="line"></i>
+        </div>
+        <div class="product-name">
+            <div class="product">
+                <div class="box v1">
+                    <img src="img/SignIn_img7.jpg" alt="">
+                    <h5>皮皮旅游</h5>
+                    <p>旅游圈自营高品质旅游品牌</p>
+                    <p>联合优质供应商共同打造</p>
+                    <p>新零售模式样本</p>
+                </div>
+                <div class="box v2" style="display: none;transform: rotateY(180deg);">
+                    <img src="img/SignIn_img1.jpg" alt="">
+                    <h5>皮皮旅游</h5>
+                    <p>旅游圈自营高品质旅游品牌</p>
+                    <p>联合优质供应商共同打造</p>
+                    <p>新零售模式样本</p>
+                </div>
+            </div>
+            <div class="product " style="margin:0 35px;">
+                <div class="box v1">
+                    <img src="img/SignIn_img1.jpg" alt="">
+                    <h5>出境游</h5>
+                    <p>线路产品覆盖全球各主要目的地</p>
+                    <p>出发城市涵盖全国各主要口岸城市</p>
+                    <p>与各地知名供应商均保有紧密合作关系</p>
+                </div>
+                <div class="box v2" style="display: none;">
+                    <img src="img/SignIn_img7.jpg" alt="">
+                    <h5>出境游</h5>
+                    <p>线路产品覆盖全球各主要目的地</p>
+                    <p>出发城市涵盖全国各主要口岸城市</p>
+                    <p>与各地知名供应商均保有紧密合作关系</p>
+                </div>
+
+            </div>
+            <div class="product" >
+                <div class="box v1">
+                    <img src="img/SignIn_img1.jpg" alt="">
+                    <h5>国内游</h5>
+                    <p>应季及热门目的地一应俱全</p>
+                    <p>出发城市涵盖全国各主要口岸城市</p>
+                    <p>各地优势及品质供应商均已入驻</p>
+                </div>
+                <div class="box v2" style="display: none;">
+                    <img src="img/SignIn_img1.jpg" alt="">
+                    <h5>国内游</h5>
+                    <p>应季及热门目的地一应俱全</p>
+                    <p>出发城市涵盖全国各主要口岸城市</p>
+                    <p>各地优势及品质供应商均已入驻</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="switch-btn"></div>
+        <div class="switch-line">
+            <span class="curr"></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- #平台产品 -->
+    <!-- 旅游圈荣誉 -->
+    <div class="three-module single-floor">
+        <div class="iaas-title">
+            <h4>旅游圈荣誉</h4>
+            <p>Company Honor</p>
+        </div>
+        <div class="switch-box">
+            <a href="#" class="news curr">新闻动态</a>
+            <a href="#" class="prize">获得奖项</a>
+        </div>
+       <!-- <div id="featured-area">
+            <ul id="myRoundabout">
+                <li><img src="img/20161103200712_5322.jpg"/></li>
+                <li><img src="img/20161103200557_4021.jpg"/></li>
+                <li><img src="img/20161103200347_3129.jpg"/></li>
+                <li><img src="img/20161103200152_7458.jpg"/></li>
+                <li><img src="img/20161103182837_1921.jpg"/></li>
+                <li><img src="img/20161103144706_3830.jpg"/></li>
+                <li><img src="img/20161103140106_2120.jpg"/></li>
+            </ul>
+        </div>-->
+         <div class="company-honor">
+            <div class="ch-content">
+                <a href="#">
+                    <div class="ch-text">
+                         <h5>匹匹扣旅游圈再获“旅行社新零售服务创新大奖”塑旅游新零售新标杆</h5>
+                        <p>"2017年度旅行社行业颁奖盛典"（上海站）于12月22日盛大召开，匹匹扣旅游圈继上周北京站后，再获"2017年度旅行社</p>
+                    </div>
+                    <div class="img-box"><img src="img/20171225175914_2260.jpg" alt=""></div>
+                    <div class="time">2017年12月22日</div>
+                    <p class="honour">
+                         <i></i>
+                    </p>
+                </a>
+                <a href="#" class="ch-right">
+                    <div class="time">2017年12月22日</div>
+                    <div class="img-box"><img src="img/20171226114046_9998.jpg" alt=""></div>
+                    <div class="ch-text">
+                        <h5>匹匹扣旅游圈CEO李爱玲受邀主持“2017中国旅游发展论坛——商旅及定制旅行国际峰会”</h5>
+                        <p>由中国旅游协会主办的2017中国旅游发展论坛在苏州隆重举办，旅游界精英代表约400人莅临参会共同见证此次峰会盛典</p>
+                    </div>
+                    <p class="honour">
+                        <i></i>
+                    </p>
+                </a>
+                <a href="#">
+                    <div class="ch-text">
+                        <h5>匹匹扣旅游圈再获“旅行社新零售服务创新大奖”塑旅游新零售新标杆</h5>
+                        <p>"2017年度旅行社行业颁奖盛典"（上海站）于12月22日盛大召开，匹匹扣旅游圈继上周北京站后，再获"2017年度旅行社</p>
+                    </div>
+                    <div class="img-box"><img src="img/20171225175914_2260.jpg" alt=""></div>
+                    <div class="time">2017年12月22日</div>
+                    <p class="honour" style="top:190px;">
+                        <i></i>
+                    </p>
+                </a>
+                <a href="#" class="ch-right">
+                    <div class="time">2017年12月22日</div>
+                    <div class="img-box"><img src="img/20171226114046_9998.jpg" alt=""></div>
+                    <div class="ch-text">
+                        <h5>匹匹扣旅游圈CEO李爱玲受邀主持“2017中国旅游发展论坛——商旅及定制旅行国际峰会”</h5>
+                        <p>由中国旅游协会主办的2017中国旅游发展论坛在苏州隆重举办，旅游界精英代表约400人莅临参会共同见证此次峰会盛典</p>
+                    </div>
+                    <p class="honour" style="top:262px;">
+                        <i></i>
+                    </p>
+                </a>
+                <!--  262  200 -->
+                <a href="#">
+                    <div class="ch-text">
+                        <h5>匹匹扣旅游圈再获“旅行社新零售服务创新大奖”塑旅游新零售新标杆</h5>
+                        <p>"2017年度旅行社行业颁奖盛典"（上海站）于12月22日盛大召开，匹匹扣旅游圈继上周北京站后，再获"2017年度旅行社</p>
+                    </div>
+                    <div class="img-box"><img src="img/20171225175914_2260.jpg" alt=""></div>
+                    <div class="time">2017年12月22日</div>
+                    <p class="honour" style="top:330px;">
+                        <i></i>
+                    </p>
+                </a>
+                <a href="#" class="ch-right">
+                    <div class="time">2017年12月22日</div>
+                    <div class="img-box"><img src="img/20171226114046_9998.jpg" alt=""></div>
+                    <div class="ch-text">
+                        <h5>匹匹扣旅游圈CEO李爱玲受邀主持“2017中国旅游发展论坛——商旅及定制旅行国际峰会”</h5>
+                        <p>由中国旅游协会主办的2017中国旅游发展论坛在苏州隆重举办，旅游界精英代表约400人莅临参会共同见证此次峰会盛典</p>
+                    </div>
+                    <p class="honour" style="top:400px;">
+                        <i></i>
+                    </p>
+                </a>
+            </div>
+             <div class="line">
+
+             </div>
+         </div>
+    </div>
+    <!-- #旅游圈荣誉 -->
+    <!-- 营销工具 -->
+    <div class="four-module single-floor">
+        <div class="outside-box">
+            <div class="iaas-title">
+                <h4>营销工具</h4>
+                <p>Marketing Tools</p>
+                <i class="line"></i>
+            </div>
+            <div class="list">
+                <div class="tools">
+                    <h4>旅游圈APP</h4>
+                    <p>「旅游圈」分销利器</p>
+                    <p>一部手机 轻松赚钱</p>
+                    <p>移动办公瞬秒实现</p>
+                    <div class="wise-more">了解更多</div>
+                    <span class="icon">
+                        <i class="lvyou-icon"></i>
+                    </span>
+                </div>
+                <div class="tools">
+                    <h4>旅游圈APP</h4>
+                    <p>「旅游圈」分销利器</p>
+                    <p>一部手机 轻松赚钱</p>
+                    <p>移动办公瞬秒实现</p>
+                    <div class="wise-more">了解更多</div>
+                    <span class="icon">
+                        <i class="revenue-treasure-icon"></i>
+                    </span>
+                </div>
+                <div class="tools">
+                    <h4>旅游圈APP</h4>
+                    <p>「旅游圈」分销利器</p>
+                    <p>一部手机 轻松赚钱</p>
+                    <p>移动办公瞬秒实现</p>
+                    <div class="wise-more">了解更多</div>
+                    <span class="icon">
+                         <i class="ring-pay-icon"></i>
+                    </span>
+                </div>
+                <div class="tools" style="margin-right: 0;">
+                    <h4>旅游圈APP</h4>
+                    <p>「旅游圈」分销利器</p>
+                    <p>一部手机 轻松赚钱</p>
+                    <p>移动办公瞬秒实现</p>
+                    <div class="wise-more">了解更多</div>
+                    <span class="icon">
+                        <i class="market-num"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- #营销工具 -->
+    <!-- 入驻流程 -->
+    <div class="five-module single-floor">
+        <div class="iaas-title">
+            <h4>入驻流程</h4>
+            <p>Entry Process</p>
+            <i class="line"></i>
+        </div>
+        <div class="info">
+            <p>The tourist routes is diversified and still at a good price; In addition ,</p>
+            <p>our platform has security system, easy to operate</p>
+            <img src="img/SignIn_bg4.png" alt="">
+            <img src="img/SignIn_bg5.png" alt="" class="entry-process-img">
+            <i class="supplier-entry"></i>
+            <i class="distributor-registration"></i>
+
+        </div>
+    </div>
+    <!-- #入驻流程 -->
+    <!-- 8大保障 -->
+    <div class="six-module single-floor">
+        <div class="iaas-title">
+            <h4>8大保障</h4>
+            <p>Safeguards</p>
+            <i class="line"></i>
+        </div>
+        <ul class="safeguards">
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+            <li>
+                <div class="six-module-icon">
+                    <i></i>
+                </div>
+                <p class="tit">可信供应商</p>
+                <p class="text">严格筛选，品质保障</p>
+            </li>
+        </ul>
+    </div>
+    <!-- #8大保障 -->
+    <!-- 页脚1 -->
+    <div class="footer-about">
+        <div class="about">
+            <p>关于我们</p>
+            <ul class="about-list">
+                <li><a href="#">企业资质</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">圈招聘</a></li>
+                <li><a href="#">意见反馈</a></li>
+          </ul>
+        </div>
+        <div class="friendly-link">
+            <p>友情链接</p>
+            <ul class="link-list">
+                <li><a href="#">旅行社杂志</a></li>
+                <li><a href="#"> 劲旅网</a></li>
+                <li><a href="#">环球旅讯</a></li>
+                <li><a href="#">旅业网</a></li>
+            </ul>
+            <ul class="link-list">
+                <li><a href="#">品橙网</a></li>
+                <li><a href="#">执惠旅游</a></li>
+                <li><a href="#">上海旅游行业协会</a></li>
+                <li><a href="#">安全联盟行业</a></li>
+            </ul>
+        </div>
+        <div class="download-app">
+            <div>
+                <p>扫码下载游圈APP</p>
+                <img src="img/CodeApp.jpg" alt="">
+            </div>
+            <div>
+                <p>关注微信公众号</p>
+                <img src="img/CodePPK.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- #页脚1 -->
+    <!-- 页脚2-->
+    <div class="footer-copyright">
+        <div class="copyright-box">
+            <p>
+                <span class="copyright-txt">版权所有：上海匹匹扣网络科技有限公司 Copyright © 2014-2018 lvyouquan.cn, All rights reserved</span>
+                <span class="addr-txt">联系地址：上海市闸北区华盛路76-82号 邮编：200070</span>
+            </p>
+            <p>
+                <span>平台旅游业务由北京匹匹扣旅行社有限公司提供服务，旅行社业务经营许可证编号：L-BJ-CJ00450 旅游度假资质</span>
+                <span>投诉建议邮箱support@pipikou.com</span>
+                <span>客服电话：1010-3258</span>
+            </p>
+            <p>
+                <span>沪ICP备14002107号-3</span>
+                <span>组织机构代码证 07297312-7</span>
+                <span>营业执照</span>
+                <span>税务登记证</span>
+                <span>保险产品网销代理资质</span>
+                <span>旅游违法行为举报电话12318</span>
+                <span>服务质量投诉电话962020</span>
+                <span>招商加盟</span>
+                <span>创业工坊</span>
+            </p>
+            <p>
+                <span>上海市互联网违法和不良信息举报中心电话：021-55056666</span>
+            </p>
+            <div class="img-skip">
+                <a href="#"><img src="img/kh09.jpg" alt=""></a>
+                <a href="#"><img src="img/picp_bg.png" alt=""></a>
+                <a href="#"><img src="img/hy_124x47.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- #页脚2-->
+    <!-- 楼层定位 -->
+    <div class="fixedNav">
+        <ul class="floor">
+            <li class="curr">
+                <span></span>
+                <i style="visibility: visible"></i>
+            </li>
+            <li>
+                <span></span>
+                <i></i>
+            </li>
+            <li>
+                <span></span>
+                <i></i>
+            </li>
+            <li>
+                <span></span>
+                <i></i>
+            </li>
+            <li>
+                <span></span>
+                <i></i>
+            </li>
+            <li>
+                <span></span>
+                <i></i>
+            </li>
+        </ul>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/unslider.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/roundabout.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            /* 3D 图片滚动 */
+           /* $('ul#myRoundabout').roundabout({
+                startingChild: 8, // 个数
+                duration: 50,// 时间
+            });*/
+            /* banner 轮播 */
+            $('.banner-content').unslider({
+                speed: 500,               //每张幻灯片的动画速度（以毫秒为单位）
+                delay:3000,                 //幻灯片动画之间的延迟（以毫秒为单位）
+                dots: true,
+                keys:true               //启用键盘（左，右）箭头快捷键
+            });
+
+            /* 楼层动画 */
+            var oNav = $(".floor");
+            var aNav = oNav.find("li");
+            var aDiv = $(".single-floor");
+            var header = $(".header").height();
+            var nav = $(".nav").height();
+            var topHeight = header + nav;
+           // console.log(topHeight);
+            $(window).scroll(function () {
+                var winH = $(window).height();  //窗口的高度
+                var iTop = $(window).scrollTop();//鼠标滚动的距离
+                if(iTop >= topHeight){
+                    oNav.fadeIn();
+                    aDiv.each(function() {
+                        //    console.log("窗口的高度" + winH);
+                          //  console.log("鼠标滚动的距离" + iTop);
+                          //  console.log("当前的高度" + $(this).offset().top);
+                        if(winH + iTop - $(this).offset().top > winH / 2) {
+                           aNav.removeClass('curr');
+                           aNav.eq($(this).index()).addClass('curr');
+                        }
+                    })
+                }
+            })
+        });
+    </script>
+</body>
+</html>
